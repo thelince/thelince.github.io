@@ -1,2 +1,2 @@
-# thelince.github.io
+# thelince.tk
 Bem vindo!
