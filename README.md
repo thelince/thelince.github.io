@@ -1,2 +1,3 @@
-thelince.tk# thelince.tk
+# thelince.tk
 Bem vindo!
+Este site é um site para uso pessoal.
