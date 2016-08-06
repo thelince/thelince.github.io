@@ -25,7 +25,7 @@
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
-(function(jQuery) {
+(function (jQuery) {
 
 	jQuery.fn.disableSelection_slidertron = function() { return jQuery(this).css('user-select', 'none').css('-khtml-user-select', 'none').css('-moz-user-select', 'none').css('-o-user-select', 'none').css('-webkit-user-select', 'none'); }
 

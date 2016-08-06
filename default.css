@@ -15,6 +15,118 @@ body
 	color: #6c6c6c
 }
 
+
+/* Galeria de fotos */
+.galeria
+{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.galeria li
+{
+    margin: 10px;
+}
+
+.galeria img
+{
+    width: 225px;
+    height: 150px;
+}
+
+/* Estilos do modal */
+
+
+
+
+.modal:target
+{
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal
+{
+    display: nome;
+}
+
+.modal h3
+{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen
+{
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a 
+{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.imagen a:nth-child(2)
+{
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagen img
+{
+    width:500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar
+{
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
 h1, h2, h3
 {
 	margin: 0;
@@ -427,7 +539,10 @@ ul.contact li a.icon-rss:before
 {
 	float: left;
 }
-
+#banner .box-left1
+{
+	float: center;
+}
 #banner .box-right
 {
 	float: right;
@@ -441,6 +556,14 @@ ul.contact li a.icon-rss:before
 	font-size: 3em;
 	color: #555555;
 }
+#banner h1
+{
+	margin: 0em;
+	padding: 0em;
+	font-weight: 500;
+	font-size: 5em;
+	color: black;
+}
 
 #banner span
 {
@@ -450,6 +573,12 @@ ul.contact li a.icon-rss:before
 	font-size: 1.2em;
 	color: #A2A2A2;
 }
+
+
+
+
+
+
 
 /*********************************************************************************/
 /* Page                                                                          */
@@ -521,7 +650,7 @@ ul.contact li a.icon-rss:before
 	#copyright
 {
 	overflow: hidden;
-	padding: 5em 0em;
+	padding: 2em 0em;
 }
 
 #copyright p
@@ -530,13 +659,13 @@ ul.contact li a.icon-rss:before
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 0.80em;
-	color: #ACCFFF;
+	color: lightskyblue;
 }
 
 #copyright a
 {
 	text-decoration: none;
-	color: #ACCFFF;
+	color: deepskyblue;
 }
 
 /*********************************************************************************/
