@@ -1,1 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
 
+<url>
+   <loc>http://thelince.tk/</loc>
+   <lastmod>2016-08-17T01:40:56+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>http://thelince.tk/index.html</loc>
+   <lastmod>2016-08-17T01:40:56+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://thelince.tk/sobre.html</loc>
+   <lastmod>2016-08-17T01:40:56+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://thelince.tk/foto.html</loc>
+   <lastmod>2016-08-17T01:40:56+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://thelince.tk/video.html</loc>
+   <lastmod>2016-08-17T01:40:56+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://thelince.tk/contacto.html</loc>
+   <lastmod>2016-08-17T01:40:56+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+</urlset>
