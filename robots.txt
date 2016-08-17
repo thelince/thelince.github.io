@@ -1,2 +1,9 @@
 User-Agent: *
 Disallow: 
+Disallow: /fonts
+Disallow: /images
+Disallow: /java
+Disallow: /dist/css
+Disallow: /dist
+Disallow: /dist/images
+Disallow: /dist/js
