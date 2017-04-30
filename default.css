@@ -8,11 +8,11 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #0C696E;
+	background: #000000;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: white;
 }
 
 
@@ -24,7 +24,6 @@ body
     list-style: none;
     padding: 20px;
     box-sizing: border-box;
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -65,7 +64,7 @@ body
 
 .modal h3
 {
-    color: #fff;
+    color: white;
     font-size: 30px;
     text-align: center;
     margin: 15px 0;
@@ -132,7 +131,7 @@ h1, h2, h3
 	margin: 0;
 	padding: 0;
 	font-weight: 600;
-	color: #454445;
+	color: dodgerblue;
 }
 
 p, ol, ul
@@ -157,12 +156,13 @@ strong
 
 a
 {
-	color: #0C696E;
+	color: dodgerblue;
 }
 
 a:hover
 {
 	text-decoration: none;
+    color: lightblue;
 }
 
 .container
@@ -221,7 +221,7 @@ a:hover
 	padding: 0em 0em 0em 0em;
 	overflow: hidden;
 	list-style: none;
-	color: #6c6c6c
+	color: white;
 }
 
 ul.style1 li
@@ -283,7 +283,7 @@ ul.style2 li:before
 {
 	display: inline-block;
 	padding: 4px;
-	background: #0C696E;
+	background: #000000;
 }
 
 ul.style2 a
@@ -378,7 +378,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	padding: 1.3em 3em;
-	background: #0C696E;
+	background: black;
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
@@ -388,15 +388,19 @@ ul.contact li a.icon-rss:before
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #FFF;
+	color: dodgerblue;
 }
 
 .button:hover
 {
+    background: dodgerblue;
+    color: black;
 }
 
 .button:active
 {
+    background: blue;
+    color: dodgerblue;
 }
 
 .button-big
@@ -419,7 +423,7 @@ ul.contact li a.icon-rss:before
 {
 	font-weight: 400;
 	font-size: 2.8em;
-	color: #323232;
+	color: dodgerblue;
 }
 
 .title .byline
@@ -428,7 +432,7 @@ ul.contact li a.icon-rss:before
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 1.1em;
-	color: #6F6F6F;
+	color: white;
 }
 
 /*********************************************************************************/
@@ -442,7 +446,7 @@ ul.contact li a.icon-rss:before
 #header
 {
 	position: relative;
-	height: 100px;
+	height: 70px;
 }
 
 /*********************************************************************************/
@@ -469,7 +473,7 @@ ul.contact li a.icon-rss:before
 #logo a
 {
 	text-decoration: none;
-	color: #FFF;
+	color: dodgerblue;
 }
 
 /*********************************************************************************/
@@ -511,6 +515,16 @@ ul.contact li a.icon-rss:before
 
 #menu li:hover a, #menu li.active a, #menu li.active span
 {
+    display: inline-block;
+	margin-left: 0.50em;
+	padding: 0em 1.5em 0em 0.50em;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: 0;
+	color: dodgerblue;
 }
 
 #menu .current_page_item a
@@ -531,8 +545,8 @@ ul.contact li a.icon-rss:before
 	#banner-wrapper
 {
 	overflow: hidden;
-	padding: 3em 0em;
-	background: #ECECEC;
+	padding: 1em 0em;
+	background: #000000;
 }
 
 #banner .box-left
@@ -554,7 +568,7 @@ ul.contact li a.icon-rss:before
 	padding: 0em;
 	font-weight: 400;
 	font-size: 3em;
-	color: #555555;
+	color: dodgerblue;
 }
 #banner h1
 {
@@ -562,7 +576,7 @@ ul.contact li a.icon-rss:before
 	padding: 0em;
 	font-weight: 500;
 	font-size: 5em;
-	color: black;
+	color: white;
 }
 
 #banner span
@@ -571,7 +585,7 @@ ul.contact li a.icon-rss:before
 	padding-top: 0.20em;
 	text-transform: uppercase;
 	font-size: 1.2em;
-	color: #A2A2A2;
+	color: white;
 }
 
 
@@ -586,7 +600,7 @@ ul.contact li a.icon-rss:before
 
 	#wrapper
 {
-	background: #FFF;
+	background: black;
 }
 
 #page
@@ -628,7 +642,7 @@ ul.contact li a.icon-rss:before
 	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: 600;
-	color: #454445;
+	color: white;
 }
 
 #stwo-col .sbox1
@@ -650,7 +664,7 @@ ul.contact li a.icon-rss:before
 	#copyright
 {
 	overflow: hidden;
-	padding: 2em 0em;
+	padding: 0.2em 0em;
 }
 
 #copyright p
@@ -675,16 +689,16 @@ ul.contact li a.icon-rss:before
 	#featured-wrapper
 {
 	overflow: hidden;
-	padding: 5em 0em;
-	background: #FFF;
+	padding: 0em 0em;
+	background: black;
 	text-align: center;
 }
 
 #featured .major
 {
 	overflow: hidden;
-	margin-bottom: 3em;
-	padding-bottom: 2em;
+	margin-bottom: 0em;
+	padding-bottom: 0em;
 	border-bottom: 1px solid #E8E8E8;
 }
 
@@ -719,7 +733,7 @@ ul.contact li a.icon-rss:before
 	display: inline-block;
 	width: 80px;
 	height: 80px;
-	background: #0C696E;
+	background: #000000;
 	margin: 0px auto 20px auto;
 	line-height:  80px;
 	font-size: 2em;
@@ -774,7 +788,7 @@ ul.contact li a.icon-rss:before
 #slider .viewer
 {
 	width: 1000px;
-	height: 375px;
+	height: 475px;
 	margin: 0 auto;
 	overflow: hidden;
 }
